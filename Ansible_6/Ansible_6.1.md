@@ -71,4 +71,4 @@ vim hosts
 "ansible_become=yes"
 ansible all -a "head -n 1 /etc/shadow"
 exit
-```s
+```
