@@ -12,7 +12,7 @@ Modification /etc/hosts
 ```console
 sudo vim /etc/hosts
 ```
-```console
+```bash
 192.168.56.10 control control
 192.168.56.20 target01 target01
 192.168.56.30 target02 target02
@@ -52,7 +52,7 @@ cat ../journal/ansible.log
 ```console
 vim hosts
 ```
-```console
+```bash
 [testlab]
 target01
 target02
@@ -67,8 +67,10 @@ ansible all -m ping
 ```console
 vim hosts
 ```
-```console
+```bash
 "ansible_become=yes"
+```
+```console
 ansible all -a "head -n 1 /etc/shadow"
 exit
 ```
