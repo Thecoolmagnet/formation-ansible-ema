@@ -31,11 +31,13 @@ sudo apt install ansible
 ansible all -i target01,target02,target03 -m ping
 ```
 
-Création de l'environnement de projet et tests
+Création de l'environnement de projet et test config
 ```console
 mkdir ~/monprojet && cd monprojet && touch ansible.cfg
 ansible --version | head -n 2
 ```
+
+Ajout d'une conf basique (logs + fichier groupe)
 ```console
 vim ansible.cfg
 ```
@@ -44,11 +46,15 @@ vim ansible.cfg
 inventory = ./hosts
 log_path = ~/journal/ansible.log
 ```
+
+Test des logs
 ```console
 mkdir ../journal
 ansible all -i target01,target02,target03 -m ping
 cat ../journal/ansible.log
 ```
+
+Création d'un groupe
 ```console
 vim hosts
 ```
@@ -61,9 +67,12 @@ target03
 [testlab:vars]
 ansible_user=vagrant
 ```
+Test d'un ping
 ```console
 ansible all -m ping
 ```
+
+Permettre à ansible de passer sudo pour des actions nécessitant une élévation
 ```console
 vim hosts
 ```
