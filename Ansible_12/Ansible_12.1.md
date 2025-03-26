@@ -145,10 +145,3 @@ Exécution du playbook
 ```console
 ansible-playbook display_user.yml
 ```
-
-
-
-
-
-
-
