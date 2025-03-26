@@ -39,9 +39,6 @@ vim apache-debian.yml
         owner: root
         group: root
         mode: '0644'
-    - service:
-        name: "apache2"
-        state: restarted
 ```
 Lancement du playbook
 ```console
@@ -76,10 +73,6 @@ Playbook Rocky
         owner: root
         group: root
         mode: '0644'
-    - service:
-        name: httpd
-        state: started
-        enabled: yes
 ```
 Lancement du playbook
 ```console
@@ -114,10 +107,6 @@ Playbook Suse
         owner: root
         group: root
         mode: '0644'
-    - service:
-        name: apache2
-        state: started
-        enabled: yes
 ``` 
 Lancement du playbook
 ```console
