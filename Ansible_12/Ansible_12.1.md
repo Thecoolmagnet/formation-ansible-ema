@@ -113,7 +113,38 @@ Exécution du playbook
 ansible-playbook myvars3.yml
 ```
 
+Création playbook 4
+```console
+vim display_user.yml
+```
+```yml
+---  # display_user.yml
 
+- hosts: all
+  gather_facts: false
+
+  vars_prompt:
+
+    - name: user
+      prompt: Enter username
+      default: microlinux
+      private: false
+
+    - name: password
+      prompt: Enter password (secret)
+      default: yatahongaga
+      private: true
+
+  tasks:
+    - debug:
+        msg: "User is {{user}}, password is {{password}}"
+
+```
+
+Exécution du playbook
+```console
+ansible-playbook display_user.yml
+```
 
 
 
