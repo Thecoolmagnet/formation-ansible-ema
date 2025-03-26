@@ -151,3 +151,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
+Suivant: [Partie 13](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_13/Ansible_13.1.md)

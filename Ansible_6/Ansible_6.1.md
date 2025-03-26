@@ -88,3 +88,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
+Suivant: [Partie 8](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_8/Ansible_8.1.md)
