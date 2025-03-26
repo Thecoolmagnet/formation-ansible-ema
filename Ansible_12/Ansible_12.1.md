@@ -80,11 +80,32 @@ vim myvars3.yml
         msg: "My car: {{mycar}}, My bike: {{mybike}}"
 ```
 
-Création des variables
+Création des variables pas défaut
 ```console
 mkdir group_vars
+vim group_vars/all.yml
+```
+```yml
+---  # group_vars/all.yml
+
+mycar: VW
+mybike: BMW
+```
+Exécution du playbook
 ```console
 ansible-playbook myvars3.yml
+```
+
+Modification du la variable pour target02
+```console
+mkdir host_vars
+vim host_vars/target02.yml
+```
+```yml
+---  # host_vars/target02.yml
+
+mycar: Mercedes
+mybike: Honda
 ```
 
 Exécution du playbook
