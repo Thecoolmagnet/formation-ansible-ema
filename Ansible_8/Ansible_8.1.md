@@ -36,3 +36,9 @@ Espace disque x2
 ansible all -a "df -h /"
 ```
 Il y a une rexécution de la commande
+
+Fin propre
+```console
+exit
+vagrant destroy -f
+```

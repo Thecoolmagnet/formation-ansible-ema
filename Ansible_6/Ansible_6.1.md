@@ -81,5 +81,10 @@ vim hosts
 ```
 ```console
 ansible all -a "head -n 1 /etc/shadow"
+```
+
+Fin propre
+```console
 exit
+vagrant destroy -f
 ```

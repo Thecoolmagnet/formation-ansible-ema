@@ -145,3 +145,9 @@ Exécution du playbook
 ```console
 ansible-playbook display_user.yml
 ```
+
+Fin propre
+```console
+exit
+vagrant destroy -f
+```

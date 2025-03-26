@@ -37,3 +37,9 @@ Création et copie de la clef ssh
 ssh-keygen
 ssh-copy-id target0[1-3]
 ```
+
+Fin propre
+```console
+exit
+vagrant destroy -f
+```

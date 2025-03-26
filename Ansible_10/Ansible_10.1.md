@@ -117,4 +117,8 @@ Test de la page
 curl http://192.168.56.40
 ```
 
-
+Fin propre
+```console
+exit
+vagrant destroy -f
+```

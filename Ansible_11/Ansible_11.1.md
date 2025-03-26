@@ -54,5 +54,8 @@ Exécution du playbook (x2)
 ansible-playbook chrony.yml
 ```
 
-
-
+Fin propre
+```console
+exit
+vagrant destroy -f
+```
