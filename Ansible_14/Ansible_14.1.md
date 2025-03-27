@@ -78,4 +78,4 @@ exit
 vagrant destroy -f
 ```
 
-Suivant: [Partie 15 Cibles hétérogènes](Ansible_15/Ansible_15.1.md)
+Suivant: [Partie 15 Cibles hétérogènes](/Ansible_15/Ansible_15.1.md)

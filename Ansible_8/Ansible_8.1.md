@@ -42,4 +42,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
-Suivant: [Partie 10 Un serveur web simple](Ansible_10/Ansible_10.1.md)
+Suivant: [Partie 10 Un serveur web simple](/Ansible_10/Ansible_10.1.md)

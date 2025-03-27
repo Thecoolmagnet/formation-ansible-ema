@@ -87,4 +87,4 @@ exit
 vagrant destroy -f
 ```
 
-Retour à la première partie : [Installation](Ansible_3/Ansible_3.1.md)
+Retour à la première partie : [Installation](/Ansible_3/Ansible_3.1.md)

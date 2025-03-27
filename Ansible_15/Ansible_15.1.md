@@ -141,4 +141,4 @@ exit
 vagrant destroy -f
 ```
 
-Suivant: [Partie 16 Jinja & Templates](Ansible_16/Ansible_16.1.md)
+Suivant: [Partie 16 Jinja & Templates](/Ansible_16/Ansible_16.1.md)
