@@ -101,6 +101,7 @@ vim chrony-02.yml
       package:
         name: chrony
         state: present
+        
     - name: Définir les variables
       set_fact:
         chrony_confdir: /etc/chrony/chrony.conf
@@ -109,7 +110,7 @@ vim chrony-02.yml
       set_fact:
         chrony_confdir: /etc/chrony.conf
         when: ansible_distribution in ["Rocky", "openSUSE Leap"]
-        
+
     - name: Configurer le fichier chrony.conf
       copy:
         dest: "{{ chrony_confdir }}"
