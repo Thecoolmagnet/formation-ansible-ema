@@ -1,5 +1,5 @@
 # Ansible 6
-## Configuration de base 
+## Configuration de base
 ### Exercice 1
 Démarrage des machines
 ```console
@@ -88,4 +88,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
-Suivant: [Partie 8](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_8/Ansible_8.1.md)
+Suivant: [Partie 8 Idempotence](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_8/Ansible_8.1.md)

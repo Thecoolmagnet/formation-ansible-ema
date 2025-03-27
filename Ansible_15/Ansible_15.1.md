@@ -141,4 +141,4 @@ exit
 vagrant destroy -f
 ```
 
-Suivant: [Partie 16](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_16/Ansible_16.1.md)
+Suivant: [Partie 16 Jinja & Templates](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_16/Ansible_16.1.md)

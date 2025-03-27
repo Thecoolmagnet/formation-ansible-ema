@@ -59,4 +59,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
-Suivant: [Partie 12](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_12/Ansible_12.1.md)
+Suivant: [Partie 12 Variables](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_12/Ansible_12.1.md)
