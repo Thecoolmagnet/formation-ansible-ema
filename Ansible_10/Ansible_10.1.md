@@ -1,6 +1,6 @@
 # Ansible 10
-## Exercice 1
-### Configuration
+## Un serveur web simple
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-10

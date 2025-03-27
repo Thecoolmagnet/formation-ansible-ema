@@ -1,6 +1,6 @@
 # Ansible 6
-## Exercice 1
-### Configuration
+## Configuration de base 
+### Exercice 1
 Démarrage des machines
 ```console
 cd ~/formation-ansible/atelier-06

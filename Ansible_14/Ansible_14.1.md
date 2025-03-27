@@ -1,6 +1,6 @@
 # Ansible 14
-## Exercice 1
-### Configuration
+## Facts et variables implicites
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-16
@@ -77,3 +77,5 @@ Fin propre
 exit
 vagrant destroy -f
 ```
+
+Suivant: [Partie 15](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_15/Ansible_15.1.md)

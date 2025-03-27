@@ -1,6 +1,6 @@
 # Ansible 11
-## Exercice 1
-### Configuration
+## Handler
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-12

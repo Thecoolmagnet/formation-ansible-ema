@@ -1,6 +1,6 @@
 # Ansible 15
-## Exercice 1
-### Configuration
+## Cibles hétérogènes
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-17
@@ -101,7 +101,7 @@ vim chrony-02.yml
       package:
         name: chrony
         state: present
-        
+
     - name: Définir les variables
       set_fact:
         chrony_confdir: /etc/chrony/chrony.conf
@@ -140,3 +140,5 @@ Fin propre
 exit
 vagrant destroy -f
 ```
+
+Suivant: [Partie 16](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_16/Ansible_16.1.md)

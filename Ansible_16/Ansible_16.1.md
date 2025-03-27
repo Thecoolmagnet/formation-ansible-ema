@@ -1,6 +1,6 @@
 # Ansible 16
-## Exercice 1
-### Configuration
+## Jinja & Templates
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-18
@@ -86,3 +86,5 @@ Fin propre
 exit
 vagrant destroy -f
 ```
+
+[Retour à la première partie](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_3/Ansible_3.1.md)

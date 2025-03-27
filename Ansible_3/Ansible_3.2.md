@@ -1,6 +1,6 @@
 # Ansible 3
-## Exercice 2
-### Configuration
+## Installation
+### Exercice 2
 Initialisation de l'environnement de travail et connexion
 ```console
 cd ~/formation-ansible/atelier-01

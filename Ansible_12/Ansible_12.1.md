@@ -1,6 +1,6 @@
 # Ansible 12
-## Exercice 1
-### Configuration
+## Variables
+### Exercice 1
 Lancement de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-14

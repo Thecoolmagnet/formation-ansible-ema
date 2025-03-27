@@ -1,6 +1,6 @@
 # Ansible 8
-## Exercice 1
-### Configuration
+## Idempotence
+### Exercice 1
 Démarrage et connexion
 ```console
 cd ~/formation-ansible/atelier-07

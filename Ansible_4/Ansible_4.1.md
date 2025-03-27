@@ -1,6 +1,6 @@
 # Ansible 4
-## Exercice 1
-### Configuration
+## Authentification
+### Exercice 1
 Démarrage de l'environnement et connexion
 ```console
 cd ~/formation-ansible/atelier-03
