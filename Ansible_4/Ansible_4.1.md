@@ -43,4 +43,4 @@ Fin propre
 exit
 vagrant destroy -f
 ```
-Suivant: [Partie 6 Configuration de base](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_6/Ansible_6.1.md)
+Suivant: [Partie 6 Configuration de base](Ansible_6/Ansible_6.1.md)

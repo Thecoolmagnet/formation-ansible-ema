@@ -32,4 +32,4 @@ Fin propre
 exit
 vagrant destroy ubuntu
 ```
-Suivant:  [Exercice 3](https://github.com/Thecoolmagnet/formation-ansible-ema/blob/main/Ansible_3/Ansible_3.3.md)
+Suivant:  [Exercice 3](Ansible_3.3.md)
